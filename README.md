@@ -1,2 +1,2 @@
-# richard_taing.github.io
+# richardtaing.github.io
 personal profile
