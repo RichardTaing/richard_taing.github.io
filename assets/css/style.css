@@ -231,7 +231,7 @@ input[type="submit"] {
 /* media queries */
 
 @media screen and (max-width: 980px) {
-  .auth-image {
+  .hover-rotate {
     width: 300px;
     height: 300px;
   }
@@ -251,7 +251,7 @@ input[type="submit"] {
 }
 
 @media screen and (max-width: 768px) {
-  .auth-image {
+  .hover-rotate {
     width: 200px;
     height: 200px;
   }
@@ -271,7 +271,7 @@ input[type="submit"] {
 }
 
 @media screen and (max-width: 640px) {
-  .auth-image {
+  .hover-rotate {
     width: 100px;
     height: 100px;
   }
