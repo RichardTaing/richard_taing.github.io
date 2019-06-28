@@ -53,7 +53,7 @@ h3 {
 /* header */
 
 #masthead {
-  position: fixed;
+  position: absolute;
   z-index: 99;
   width: 100%;
   margin: 0 0 30px;
@@ -275,6 +275,12 @@ input[type="submit"] {
     width: 100px;
     height: 100px;
   }
+  #logo {
+    float: none;
+    display: block;
+    overflow: auto;
+    width: 100%;
+  }
   #masthead {
     position: static;
     top: 0%;
@@ -283,7 +289,12 @@ input[type="submit"] {
     width: 95%;
     padding: 10px;
   }
-
+  nav {
+    float: none;
+    display: block;
+    margin-bottom: 25px;
+    text-align: center;
+  }
   textarea {
     width: 95%;
     padding: 10px;
