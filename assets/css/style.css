@@ -169,12 +169,19 @@ h2 {
   border-bottom: 0;
 }
 
-.auth-image {
+.hover-rotate {
   float: left;
   width: 200px;
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
+}
+.hover-rotate:hover {
+  -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  transform: rotate(-10deg);
 }
 
 /* contact page */
@@ -204,12 +211,12 @@ textarea {
   padding: 0 10px;
   font-size: 14px;
   border: 1px solid #dddddd;
-  background: url("../images/yellow-pad");
+  background: url("../images/yellow-pad.jpg");
 }
 
 textarea {
   height: 200px;
-  background: url("../images/yellow-pad");
+  background: url("../images/yellow-pad.jpg");
 }
 
 input[type="submit"] {
@@ -222,3 +229,68 @@ input[type="submit"] {
 }
 
 /* media queries */
+
+@media screen and (max-width: 980px) {
+  .auth-image {
+    width: 300px;
+    height: 300px;
+  }
+  input {
+    width: 95%;
+    padding: 10px;
+  }
+
+  textarea {
+    width: 95%;
+    padding: 10px;
+  }
+
+  #submit {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .auth-image {
+    width: 200px;
+    height: 200px;
+  }
+  input {
+    width: 95%;
+    padding: 10px;
+  }
+
+  textarea {
+    width: 95%;
+    padding: 10px;
+  }
+
+  #submit {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .auth-image {
+    width: 100px;
+    height: 100px;
+  }
+  #masthead {
+    position: static;
+    top: 0%;
+  }
+  input {
+    width: 95%;
+    padding: 10px;
+  }
+
+  textarea {
+    width: 95%;
+    padding: 10px;
+  }
+
+  #submit {
+    width: 50%;
+    position: relative;
+  }
+}
