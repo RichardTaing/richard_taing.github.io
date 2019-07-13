@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "Turtle";
+  src: url("../font/Turtles/Turtles.otf");
+}
+@font-face {
+  font-family: "Chlorinr";
+  src: url("../font/Chlorinr/CHLORINR.TTF");
+}
+body {
+  background: url("../images/dojo.png") no-repeat center fixed;
+  -webkit-backdrop-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 100%;
+}
+
+header {
+  background: fixed;
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.center {
+  margin: auto;
+  padding-top: 15px;
+  opacity: 0.6;
+  width: 900px;
+  height: auto;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 20px 0px 20px 0px;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+img {
+  max-width: 210px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.char-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+  font-weight: 900;
+  margin: 0px 2px 0px 2px;
+  font-family: Turtle;
+  font-size: 25px;
+}
+
+/* #leonardo,
+#michelangelo,
+#donatello,
+#raphael {
+} */
+
+#leonardo {
+  color: #234fc2;
+}
+
+#michelangelo {
+  color: #c26f0b;
+}
+
+#donatello {
+  color: #4a0e80;
+}
+
+#raphael {
+  color: #b10d1b;
+}
+
+#fight_row {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#character_select,
+#your_character,
+#defender_section,
+#opponents_available {
+  color: #00890b;
+  font-family: Chlorinr;
+}
+
+#message {
+  color: #edae5b;
+  width: 300px;
+  font-size: 2.5em;
+  font-family: Turtle;
+}
+
+button {
+  background-color: #00890b;
+  color: white;
+  font-family: monospace, serif;
+  font-size: 1.2em;
+  border: 2px solid white;
+  padding: 10px 60px 10px 60px;
+}

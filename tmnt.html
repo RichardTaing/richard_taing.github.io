@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- jQuery Link -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <title>Teenage Mutant Ninja Turtles!</title>
+    <!-- SOUND SOURCE LINK-HOWLER -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/1.1.29/howler.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/tmnt.css">
+</head>
+
+<body>
+    <header>
+        <img class="center" src="../unit-4-game/assets/images/Title.png" alt="title">
+    </header>
+
+    <section id="character_select">
+        <h2>Select Your Turtle</h2>
+        <div id="characters" class="row">
+            <!-- initially append character images here -->
+        </div>
+    </section>
+
+    <div id="fight_row">
+        <section id="your_character">
+            <h2><b>Your Character</b></h2>
+            <div id="you" class="row">
+                <!-- append your character here once he is selected -->
+            </div>
+        </section>
+
+        <section id="message">
+            <p></p>
+            <h4></h4>
+        </section>
+
+        <section id="defender_section">
+            <h2><b>Defender</b></h2>
+            <div id="defender" class="row">
+                <!-- append defender here once defender is selected -->
+            </div>
+        </section>
+    </div>
+
+    <section id="fight_section">
+        <!-- <h2>Fight Section</h2> -->
+        <button type="button" id="attack" class="btn">Attack</button>
+    </section>
+
+    <section id="opponents_available">
+        <h2>Opponents Available to Attack</h2>
+        <div id="opponents" class="row">
+            <!-- append opponents here once character is selected -->
+        </div>
+    </section>
+
+
+    <section id="restart_section">
+        <button type="button" id="restart" class="btn">Restart Game</button>
+    </section>
+    <!-- Javascript -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>
