@@ -1,3 +1,3 @@
-# richardtaing.github.io
-personal profile
+# Richard Taing
 
+## Personal Portfolio
