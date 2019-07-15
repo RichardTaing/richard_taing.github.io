@@ -1,0 +1,151 @@
+/* CSS for Pyschic Game */
+
+html,
+body {
+  background: url("../images/vector-globe-crystal-ball.jpg") no-repeat center
+    center fixed;
+  -webkit-backdrop-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+}
+
+/* .wrapper {
+  position: center;
+  padding: 5%;
+  text-align: center;
+  height: 100%;
+} */
+
+.container {
+  position: center;
+  padding: 5%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: bolder;
+  font-family: "IM Fell English", serif;
+  line-height: 80px;
+  color: #9e4fc2;
+}
+
+p {
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: "Indie Flower", cursive;
+  color: #918dba;
+  opacity: 0.8;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: "IM Fell English", serif;
+  text-decoration: underline;
+  color: #f5b0fd;
+  -webkit-animation: color-change 2s infinite;
+  -moz-animation: color-change 2s infinite;
+  -o-animation: color-change 2s infinite;
+  -ms-animation: color-change 2s infinite;
+  animation: color-change 2s infinite;
+}
+
+@-webkit-keyframes color-change {
+  0% {
+    color: #1f3ee3;
+  }
+  50% {
+    color: #f5b0fd;
+  }
+  100% {
+    color: #9e4fc2;
+  }
+}
+@-moz-keyframes color-change {
+  0% {
+    color: #1f3ee3;
+  }
+  50% {
+    color: #f5b0fd;
+  }
+  100% {
+    color: #9e4fc2;
+  }
+}
+@-ms-keyframes color-change {
+  0% {
+    color: #1f3ee3;
+  }
+  50% {
+    color: #f5b0fd;
+  }
+  100% {
+    color: #9e4fc2;
+  }
+}
+@-o-keyframes color-change {
+  0% {
+    color: #1f3ee3;
+  }
+  50% {
+    color: #f5b0fd;
+  }
+  100% {
+    color: #9e4fc2;
+  }
+}
+@keyframes color-change {
+  0% {
+    color: #1f3ee3;
+  }
+  50% {
+    color: #f5b0fd;
+  }
+  100% {
+    color: #9e4fc2;
+  }
+}
+
+.stats {
+  color: white;
+  position: center;
+  padding-bottom: 5%;
+  text-align: center;
+  height: 40%;
+  margin: 25px;
+  background-color: transparent;
+}
+
+h3 {
+  font-size: 40px;
+  font-family: "Aladin", cursive;
+  color: #9e4fc2;
+}
+
+h4 {
+  color: #9e4fc2;
+  font-family: "Aladin", cursive;
+  position: fixed;
+  top: 0%;
+  height: 35px;
+  margin: 0px 50px 0px 0px;
+  text-align: left;
+  padding: 10px 30px;
+  opacity: 0.7;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  height: 35px;
+  margin: 0px 50px 0px 0px;
+  font-size: 10px;
+  color: #cccccc;
+  text-align: right;
+  padding: 10px 30px;
+  width: 95%;
+}
+/* will add media-screen at a later date */

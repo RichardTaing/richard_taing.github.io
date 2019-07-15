@@ -16,7 +16,7 @@ function Character(
   this.attackPower = attackPower;
   this.baseAttackPower = attackPower;
   this.counterAttackPower = counterAttackPower;
-  this.imgPath = "assets/images/" + imgPath + ".png";
+  this.imgPath = "../assets/images/" + imgPath + ".png";
   this.element = null;
 }
 
@@ -24,12 +24,12 @@ var sounds = {
   //ARRAY CONTAINING SOUND FILES
   win: {
     sound: new Howl({
-      urls: ["./assets/sounds/win.mp3"]
+      urls: ["../assets/sounds/win.mp3"]
     })
   },
   lose: {
     sound: new Howl({
-      urls: ["./assets/sounds/lose.mp3"]
+      urls: ["../assets/sounds/lose.mp3"]
     })
   }
   // defeat: {
