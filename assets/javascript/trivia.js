@@ -141,7 +141,7 @@ var TriviaObj = {
   startGame() {
     $(".questions").html(
       "<div class='triviaText'><h3>Welcome to Basketball Trivia</h3><br>" +
-        "<h5>There are 10 related basketball questions. <br>" +
+        "<h5>There are 11 related basketball questions. <br>" +
         "So go ahead and test your Basketball Knowledge. <br>" +
         "REMEMBER! There is a time limit to each question. <br>" +
         "Good luck!!!</h5><br>" +
@@ -152,7 +152,7 @@ var TriviaObj = {
 
   showQuestion() {
     if (this.questionOn) {
-      if (this.questionNumber < 10) {
+      if (this.questionNumber < 11) {
         $(".triviaText").html(
           "<h4><b>" + this.questionsArr[this.questionNumber] + "</b></h4>"
         );
