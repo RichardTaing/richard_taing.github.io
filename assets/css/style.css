@@ -281,6 +281,9 @@ input[type="submit"] {
     overflow: auto;
     width: 100%;
   }
+  #main-container {
+    padding-top: 10px;
+  }
   #masthead {
     position: static;
     top: 0%;
