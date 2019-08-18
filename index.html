@@ -50,13 +50,16 @@
         integrity="sha256-a2tobsqlbgLsWs7ZVUGgP5IvWZsx8bTNQpzsqCSm5mk=" crossorigin="anonymous" />
 
     <!-- OwlCarousel2 css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-        integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha256-qvCL5q5O0hEpOm1CgOLQUuHzMusAZqDcAZL9ijqfOdI=" crossorigin="anonymous" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
         integrity="sha256-nXBV7Gr2lU0t+AwKsnS05DYtzZ81oYTXS6kj7LBQHfM=" crossorigin="anonymous" />
 
     <!-- Magnific Popup CSS -->
     <!-- <link href="https://cdn.bootcss.com/magnific-popup.js/1.1.0/magnific-popup.css" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+        integrity="sha256-PZLhE6wwMbg4AB3d35ZdBF9HD/dI/y4RazA3iRDurss=" crossorigin="anonymous" /> -->
 
     <!-- Reset css -->
     <link rel="stylesheet" href="assets/css/reset.css">
@@ -86,7 +89,6 @@
                         <div class="navbar navbar-cus">
                             <div class="navbar-header">
                                 <a href="index.html" class="navbar-brand"><span class="logo"></span></a>
-                                <!--edit site name here-->
                                 <button type="button" class="navbar-toggle" data-toggle="collapse"
                                     data-target=".navbar-collapse">
                                     <span class="sr-only">Toggle navigation</span>
@@ -126,16 +128,15 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <section class="intro animate-scale">
 
+                                <section class="intro animate-scale">
                                     <h3>Richard Taing</h3>
                                     <h1 class="ah-headline">
                                         <span class="ah-words-wrapper">
                                             <b class="is-visible">Welcome to My Website</b>
-                                            <b>Please scroll down</b><b>for more information about my</b><b>Full Stack
-                                                journey!</b>
-                                            <!-- <b>for more information</b>
-                                            <b>about my Full Stack journey!</b> -->
+                                            <b>Please scroll down</b>
+                                            <b>for more information about my</b>
+                                            <b>Full Stack journey!</b>
                                         </span>
                                     </h1>
                                     <a href="#contact" class="banner-btn">Contact me</a>
@@ -159,7 +160,7 @@
             <div class="row">
 
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <img class="profile-pic" src=".png" class="img-responsive img-fluid" alt="about image">
+                    <img class="profile-pic" src=".png" class="img-fluid img-fluid" alt="about image">
                 </div>
 
                 <div class="col-md-4 col-xs-12 col-sm-6 col-lg-4">
@@ -197,75 +198,85 @@
             <div class="row">
                 <div id="services-carousel" class="owl-carousel owl-theme">
 
-                    <div class="single-services text-center item">
+                    <div class="single-services text-xs-center item">
                         <div class="services-icon">
-                            <i class="fa fa-joomla"></i>
+                            <i class="fas fa-laptop-code"></i>
                         </div>
                         <div class="services-content">
                             <h3>Computer science applied to JavaScript</h3>
-                            <ul>
-                                <li>• Data Structures</li>
-                                <li>• Algorithms</li>
-                            </ul>
+                            <p>
+                                <ul>
+                                    <li>• Data Structures</li>
+                                    <li>• Algorithms</li>
+                                </ul>
+                            </p>
                         </div>
 
-                        <div class="single-services text-center item">
+                        <div class="single-services text-xs-center item">
                             <div class="services-icon">
-                                <i class="fa fa-joomla"></i>
+                                <i class="fab fa-chrome"></i>
                             </div>
                             <div class="services-content">
                                 <h3>Browser based technologies</h3>
-                                <ul>
-                                    <li>• HTML</li>
-                                    <li>• CSS</li>
-                                    <li>• JavaScript</li>
-                                    <li>• jQuery</li>
-                                    <li>• Responsive Design</li>
-                                    <li>• Bootstrap</li>
-                                    <li>• Handlebars</li>
-                                    <li>• Cookies & Local Storage</li>
-                                    <li>• React.js</li>
-                                </ul>
+                                <p>
+                                    <ul>
+                                        <li>• HTML</li>
+                                        <li>• CSS</li>
+                                        <li>• JavaScript</li>
+                                        <li>• jQuery</li>
+                                        <li>• Responsive Design</li>
+                                        <li>• Bootstrap</li>
+                                        <li>• Handlebars</li>
+                                        <li>• Cookies & Local Storage</li>
+                                        <li>• React.js</li>
+                                    </ul>
+                                </p>
                             </div>
                         </div>
 
-                        <div class="single-services text-center item">
+                        <div class="single-services text-xs-center item">
                             <div class="services-icon">
-                                <i class="fa fa-slack"></i>
+                                <i class="fab fa-github"></i>
                             </div>
                             <div class="services-content">
                                 <h3>Deployment</h3>
-                                <ul>
-                                    <li>• Git</li>
-                                    <li>• Github Pages</li>
-                                </ul>
+                                <p>
+                                    <ul>
+                                        <li>• Git</li>
+                                        <li>• Github Pages</li>
+                                    </ul>
+                                </p>
                             </div>
                         </div>
 
-                        <div class="single-services text-center item">
+                        <div class="single-services text-xs-center item">
                             <div class="services-icon">
-                                <i class="fa fa-renren"></i>
+                                <i class="fa fa-database"></i>
                             </div>
                             <div class="services-content">
                                 <h3>Databases</h3>
-                                <ul>
-                                    <li>• Firebase</li>
-                                    <li>• MySQL</li>
-                                </ul>
+                                <p>
+                                    <ul>
+                                        <li>• Firebase</li>
+                                        <li>• MySQL</li>
+                                    </ul>
+                                </p>
                             </div>
 
-                            <div class="single-services text-center item">
+                            <div class="single-services text-xs-center item">
                                 <div class="services-icon">
-                                    <i class="fa fa-joomla"></i>
+                                    <i class="fab fa-node"></i>
                                 </div>
                                 <div class="services-content">
                                     <h3>Node.js (Server Side Development)</h3>
-                                    <ul>
-                                        <li>• Express</li>
-                                        <li>• Security and Session Storage</li>
-                                        <li>• User Authentication</li>
-                                        <li>• MERN Stack (MongoDB, Express.js, React.js, Node.js)</li>
-                                    </ul>
+                                    <p>
+                                        <ul>
+                                            <li>• Express</li>
+                                            <li>• Security and Session Storage</li>
+                                            <li>• User Authentication</li>
+                                            <li>• MERN Stack (MongoDB, Express.js, React.js, Node.js)</li>
+                                        </ul>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -296,7 +307,7 @@
                         <div id="inline-popups" class="port-box">
                             <a href="#test-popup" data-effect="mfp-zoom-out">
                                 <div class="hovereffect">
-                                    <img src="assets/images/psychic.jpg" alt="portfolio image" class="img-responsive">
+                                    <img src="assets/images/psychic.jpg" alt="portfolio image" class="img-fluid">
                                     <div class="overlay">
                                         <h2>Psychic Game</h2>
                                         <p>Created a guessing game that runs in any browser that dynamically
@@ -309,8 +320,7 @@
                             <div class="row">
                                 <div class="col-md-7 col-xs-12">
                                     <div class="por-img">
-                                        <img src="assets/images/psychic.jpg" alt="portfolio image"
-                                            class="img-responsive">
+                                        <img src="assets/images/psychic.jpg" alt="portfolio image" class="img-fluid">
                                     </div>
                                 </div>
                                 <div class="col-md-5 col-xs-12">
@@ -332,7 +342,7 @@
                                                     <p>links: </p>
                                                     <p></p>
                                                 </div>
-                                                <div class="col-xs-offset-1 col-xs-7">
+                                                <div class="offset-xs-1 col-xs-7">
                                                     <p>Homework 3: JavaScript Assignment</p>
                                                     <p>July 6th 2019</p>
                                                     <p>TML, Bootstrap, CSS, Javascript</p>
@@ -356,7 +366,7 @@
                             <a href="#test-popup-2" data-effect="mfp-zoom-out">
                                 <div class="hovereffect">
                                     <img src="assets/images/tmnt.jpg" alt="portfolio image" width="700" height="500"
-                                        class="img-responsive">
+                                        class="img-fluid">
                                     <div class="overlay">
                                         <h2>TMNT RPG Game</h2>
                                         <p>Created an interactive web game that dynamically updates the HTML
@@ -370,7 +380,7 @@
                                 <div class="col-md-5">
                                     <div class="por-img">
                                         <img src="assets/images/tmnt.jpg" alt="portfolio image" width="700" height="500"
-                                            class="img-responsive">
+                                            class="img-fluid">
                                     </div>
                                 </div>
                                 <div class="col-md-5">
@@ -387,7 +397,7 @@
                                                     <p>Type:</p>
                                                     <p>links:</p>
                                                 </div>
-                                                <div class="col-xs-offset-1 col-xs-7">
+                                                <div class="offset-xs-1 col-xs-7">
                                                     <p>Homework 4: jQuery Assignment</p>
                                                     <p>July 14th 2019</p>
                                                     <p>HTML, Bootstrap, CSS, Javascript, jQuery</p>
@@ -410,7 +420,7 @@
                         <div id="inline-popups-3">
                             <a href="#test-popup-3" data-effect="mfp-zoom-out">
                                 <div class="hovereffect">
-                                    <img src="assets/images/trivia.jpg" alt="portfolio image" class="img-responsive">
+                                    <img src="assets/images/trivia.jpg" alt="portfolio image" class="img-fluid">
                                     <div class="overlay">
                                         <h2>Basketball Trivia Game</h2>
                                         <p>Created a Basketball trivia game using JavaScript for the logic and
@@ -423,8 +433,7 @@
                             <div class="row">
                                 <div class="col-md-7">
                                     <div class="por-img">
-                                        <img src="assets/images/trivia.jpg" alt="portfolio image"
-                                            class="img-responsive">
+                                        <img src="assets/images/trivia.jpg" alt="portfolio image" class="img-fluid">
                                     </div>
                                 </div>
                                 <div class="col-md-5">
@@ -445,7 +454,7 @@
                                                     <p>Type: </p>
                                                     <p>links:</p>
                                                 </div>
-                                                <div class="col-xs-offset-1 col-xs-7">
+                                                <div class="offset-xs-1 col-xs-7">
                                                     <p>Homework 5: JavaScript Assignment 2</p>
                                                     <p>July 20th 2019</p>
                                                     <p>HTML, Bootstrap, CSS, Javascript, jQuery</p>
@@ -469,7 +478,7 @@
                         <div id="inline-popups-4">
                             <a href="#test-popup-4" data-effect="mfp-zoom-out">
                                 <div class="hovereffect">
-                                    <img src="assets/images/giphy.jpg" alt="node image" class="img-responsive">
+                                    <img src="assets/images/giphy.jpg" alt="node image" class="img-fluid">
                                     <div class="overlay">
                                         <h2>Food GIPHY</h2>
                                         <p>Created a Food Giphy website that dynamically loads contents based on
@@ -483,7 +492,7 @@
                             <div class="row">
                                 <div class="col-md-5">
                                     <div class="por-img">
-                                        <img src="assets/images/giphy.jpg" alt="node image" class="img-responsive">
+                                        <img src="assets/images/giphy.jpg" alt="node image" class="img-fluid">
                                     </div>
                                 </div>
                                 <div class="col-md-5">
@@ -505,7 +514,7 @@
                                                     <p>Type:</p>
                                                     <p>link:</p>
                                                 </div>
-                                                <div class="col-xs-offset-1 col-xs-7">
+                                                <div class="offset-xs-1 col-xs-7">
                                                     <p>Homework 6: GifTastic</p>
                                                     <p>July 26th 2019</p>
                                                     <p>HTML, Bootstrap, CSS, Javascript, jQuery, aJax</p>
@@ -529,8 +538,7 @@
                         <div id="inline-popups-5" class="port-box">
                             <a href="#test-popup-5" data-effect="mfp-zoom-out">
                                 <div class="hovereffect">
-                                    <img src="assets/images/TrainScheduler.jpg" alt="portfolio image"
-                                        class="img-responsive">
+                                    <img src="assets/images/TrainScheduler.jpg" alt="portfolio image" class="img-fluid">
                                     <div class="overlay">
                                         <h2>Train Scheduler</h2>
                                         <p>Created a train schedule application that
@@ -546,7 +554,7 @@
                                 <div class="col-md-5 col-xs-12">
                                     <div class="por-img">
                                         <img src="assets/images/TrainScheduler.jpg" alt="portfolio image"
-                                            class="img-responsive">
+                                            class="img-fluid">
                                     </div>
                                 </div>
                                 <div class="col-md-5 col-xs-12">
@@ -570,7 +578,7 @@
                                                     <p>links: </p>
                                                     <p></p>
                                                 </div>
-                                                <div class="col-xs-offset-1 col-xs-7">
+                                                <div class="offset-xs-1 col-xs-7">
                                                     <p>Homework 7: Train Scheduler</p>
                                                     <p>August 1st 2019</p>
                                                     <p>HTML, CSS, Javascipt, jQuery, Firebase, Moment.Js</p>
@@ -593,8 +601,7 @@
                         <div id="inline-popups-6" class="port-box">
                             <a href="#test-popup-6" data-effect="mfp-zoom-out">
                                 <div class="hovereffect">
-                                    <img src="assets/images/Festival4U.jpg" alt="portfolio image"
-                                        class="img-responsive">
+                                    <img src="assets/images/Festival4U.jpg" alt="portfolio image" class="img-fluid">
                                     <div class="overlay">
                                         <h2>Project 1: Along Came Polly</h2>
                                         <p>Created a Responsive events based webpage utilising the Spotify and
@@ -608,8 +615,7 @@
                             <div class="row">
                                 <div class="col-md-5 col-xs-12">
                                     <div class="por-img">
-                                        <img src="assets/images/Festival4U.jpg" alt="portfolio image"
-                                            class="img-responsive">
+                                        <img src="assets/images/Festival4U.jpg" alt="portfolio image" class="img-fluid">
                                     </div>
                                 </div>
                                 <div class="col-md-5 col-xs-12">
@@ -631,7 +637,7 @@
                                                     <p>links: </p>
                                                     <p></p>
                                                 </div>
-                                                <div class="col-xs-offset-1 col-xs-7">
+                                                <div class="offset-xs-1 col-xs-7">
                                                     <p>Project 1: Along Came Polly</p>
                                                     <p>August 10th 2019</p>
                                                     <p>HTML, CSS, jQuery, Firebase, Moment.Js, APIs</p>
@@ -671,7 +677,7 @@
 
             <div class="row">
                 <div class="col-md-3 col-sm-6">
-                    <div class="single-contact text-center wow fadeInDown" data-wow-delay="0.4s">
+                    <div class="single-contact text-xs-center wow fadeInDown" data-wow-delay="0.4s">
                         <i class="fa fa-home"></i>
                         <h2>Location</h2>
                         <p>Melbourne, Victoria AU</p><br>
@@ -679,7 +685,7 @@
                 </div>
 
                 <div class="col-md-3 col-sm-6">
-                    <div class="single-contact text-center wow fadeInDown" data-wow-delay="0.6s">
+                    <div class="single-contact text-xs-center wow fadeInDown" data-wow-delay="0.6s">
                         <i class="fa fa-phone"></i>
                         <h2>Phone: </h2>
                         <p>Available Upon Request</p>
@@ -687,7 +693,7 @@
                 </div>
 
                 <div class="col-md-3 col-sm-6">
-                    <div class="single-contact text-center wow fadeInDown" data-wow-delay="0.8s">
+                    <div class="single-contact text-xs-center wow fadeInDown" data-wow-delay="0.8s">
                         <i class="fa fa-envelope-o"></i>
                         <h2>Email</h2>
                         <p>richard.taing@gmail.com</p>
@@ -695,24 +701,24 @@
                 </div>
 
                 <div class="col-md-3 col-sm-6">
-                    <div class="single-contact text-center wow fadeInDown" data-wow-delay="1s">
-                        <i class="fa fa-gg"></i>
+                    <div class="single-contact text-xs-center wow fadeInDown" data-wow-delay="1s">
+                        <i class="far fa-comment-dots"></i>
                         <h2>Social Media: </h2>
                         <div class="socials">
-                            <a href="" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="" target="_blank"><i class="fab fa-facebook"></i></a>
 
-                            <a href="https://www.instagram.com/rst_979/"><i class="fa fa-instagram fa-5x"></i></a>
+                            <a href="https://www.instagram.com/rst_979/"><i class="fab fa-instagram"></i></a>
 
                             <a href="https://github.com/RichardTaing" target="_blank"><i class="fab fa-github"></i></a>
 
                             <a href="https://www.linkedin.com/in/richard-taing-32422b52/" target="_blank"><i
-                                    class="fa fa-linkedin"></i></a>
+                                    class="fab fa-linkedin"></i></a>
 
                             <a href="hhttps://twitter.com/RichardTaing" target="_blank"><i
-                                    class="fa fa-twitter"></i></a>
+                                    class="fab fa-twitter"></i></a>
 
                             <a href="https://www.pinterest.com.au/richardtaing1/" target="_blank"><i
-                                    class="fa fa-pinterest"></i></a>
+                                    class="fab fa-pinterest"></i></a>
                         </div>
                     </div>
                 </div>
@@ -723,7 +729,7 @@
             <div class="footer-area">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-xs-center">
                             <p>&copy; Copyright 2019 Richard Taing
                         </div>
                     </div>
@@ -737,23 +743,22 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
-
     <!-- Bootstrap.js -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
-    <!-- magnific-popup.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
-        integrity="sha256-P93G0oq6PBPWTP1IR8Mz/0jHHUpaWL0aBJTKauisG7Q=" crossorigin="anonymous"></script>
-
-    <!-- OwlCarousel2.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.3/owl.carousel.min.js"
-        integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
-
     <!-- Animated-headlines.js -->
     <script
-        src="https://cdn.jsdelivr.net/npm/jquery-animated-headlines@1.0.0/dist/js/jquery.animatedheadline.min.js"></script>
+        src="https://cdn.jsdelivr.net/npm/jquery-animated-headlines@1.0.0/dist/js/jquery.animatedheadline.js"></script>
+
+    <!-- OwlCarousel2.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"
+        integrity="sha256-251s88HEsEfGL2RufZmRwGohKTHDYr9T+aJAazDwlGY=" crossorigin="anonymous"></script>
+
+    <!-- magnific-popup.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"
+        integrity="sha256-wk7QMTzYE7BJvko9BsywPzRmKzhCtIQKTuN6/B9sRmw=" crossorigin="anonymous"></script>
 
     <!-- Wow.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"
@@ -763,8 +768,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
         integrity="sha256-w49DIDk8itgSjjuoof5lTxYKwcjWJ7Z2sRW3nU1StNA=" crossorigin="anonymous"></script>
 
+    <script src="https://kit.fontawesome.com/57944e1645.js"></script>
+
     <!-- Bootstrap Validator.js -->
-    <script src="https://cdn.rawgit.com/PascaleBeier/bootstrap-validate/v2.2.0/dist/bootstrap-validate.js"></script>
+    <!-- <script src="https://cdn.rawgit.com/PascaleBeier/bootstrap-validate/v2.2.0/dist/bootstrap-validate.js"></script> -->
 
     <!-- add app.js -->
     <script src="assets/javascript/app.js"></script>
