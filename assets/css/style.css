@@ -135,7 +135,7 @@ img {
 }
 
 .nav-area.sticky_navigation {
-  background: #ffffff;
+  background: #d4e6f9;
   height: 80px;
 }
 
@@ -190,7 +190,7 @@ img {
 }
 
 .sticky_navigation .navbar-brand:hover {
-  color: #ffffff;
+  color: #d4e6f9;
 }
 
 .main-menu {
@@ -210,7 +210,7 @@ img {
   text-transform: uppercase;
   font-size: 25px;
   display: block;
-  color: #ffffff;
+  color: #d4e6f9;
   font-weight: 800;
 }
 
@@ -223,7 +223,7 @@ img {
 .navbar-brand:focus,
 .navbar-brand:hover {
   text-decoration: none;
-  color: #ffffff;
+  color: #d4e6f9;
 }
 
 .navbar-right li {
@@ -232,14 +232,14 @@ img {
 }
 
 .navbar-right li a {
-  color: #ffffff;
+  color: #d4e6f9;
   text-transform: uppercase;
   font-weight: 600;
 }
 
 .navbar-right li.active a {
   font-weight: bold;
-  color: #ffffff;
+  color: #d4e6f9;
 }
 
 .nav > li > a:hover,
@@ -259,7 +259,7 @@ img {
 
 /* 4. Banner area css starts */
 .banner-area {
-  background-image: url(../images/babyelephant.JPG);
+  background-image: url(../images/codecode.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -675,14 +675,6 @@ canvas {
 .single-contact h2 {
   text-transform: uppercase;
   font-size: 16px;
-}
-
-.btn.btn-send {
-  background: #e91e63;
-  color: #ffffff;
-  padding: 15px 20px;
-  text-transform: uppercase;
-  font-weight: 600;
 }
 
 .contact-right h2 {
