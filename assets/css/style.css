@@ -70,7 +70,7 @@ img {
 .line-one {
   height: 1px;
   width: 100px;
-  background: #e91e63;
+  background: #f0b208;
   display: block;
   margin: 0 auto;
   padding: 0;
@@ -99,7 +99,7 @@ img {
 .loader:before,
 .loader:after {
   content: "";
-  border: 1em solid #e91e63;
+  border: 1em solid #f0b208;
   border-radius: 50%;
   width: inherit;
   height: inherit;
@@ -254,6 +254,11 @@ img {
 
 .profile-pic {
   border-radius: 30px;
+  border-style: none;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+  width: 40%;
 }
 /* Nav area css ends */
 
@@ -320,7 +325,7 @@ canvas {
 }
 
 .banner-btn {
-  background: #e91e63;
+  background: #1e94e0;
   text-decoration: none;
   padding: 10px 30px;
   display: inline-block;
@@ -362,18 +367,18 @@ canvas {
   margin-bottom: 18px;
 }
 
-/* .about-text-left p {
+.about-text-left p {
   text-align: right;
   font-size: 13px;
   color: #222;
   margin-bottom: 50px;
-} */
+}
 
 .about-text-left a {
   color: #fff;
   font-size: 14px;
   text-transform: uppercase;
-  background: #e91e63;
+  background: #1e94e0;
   padding: 15px;
   float: right;
   text-decoration: none;
@@ -401,7 +406,7 @@ canvas {
 
 .services-icon i {
   font-size: 35px;
-  color: #e91e63;
+  color: #1e94e0;
 }
 
 .single-services:hover i {
@@ -460,14 +465,18 @@ canvas {
 }
 
 .single-services:hover .services-content h3 {
-  color: #e91e63;
+  color: #1e94e0;
 }
 /* Services area ends  */
 /* 7. Portfolio area starts */
 .por-text-details .col-xs-4 p {
   font-weight: bold;
   text-transform: uppercase;
-  color: #e91e63;
+  font-weight: bold;
+}
+
+.por-text-details .col-xs-7 {
+  color: #1e94e0;
 }
 
 .mfp-zoom-out .mfp-with-anim {
@@ -508,7 +517,7 @@ canvas {
   margin: 0;
   font-size: 22px;
   margin-bottom: 15px;
-  border-bottom: 3px solid #e91e63;
+  border-bottom: 3px solid #f0b208;
   padding-bottom: 10px;
 }
 
@@ -519,11 +528,6 @@ canvas {
   width: auto;
   max-width: 60%;
   margin: 0 auto;
-}
-
-.por-text-details .col-xs-4 p {
-  font-weight: bold;
-  text-transform: uppercase;
 }
 
 .hovereffect {

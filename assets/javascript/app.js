@@ -90,7 +90,7 @@ $(document).ready(function() {
     smartSpeed: 500,
     autoplay: true,
     singleItem: true,
-    loop: true,
+    loop: false,
     responsive: {
       0: {
         items: 1
@@ -102,13 +102,6 @@ $(document).ready(function() {
         items: 3
       }
     }
-  });
-
-  //*****Counter up js
-
-  $(".counter").counterUp({
-    delay: 50,
-    time: 8000
   });
 
   //*****Magnific Pop up js
