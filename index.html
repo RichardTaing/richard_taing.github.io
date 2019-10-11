@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="portfolio template based on HTML5">
+    <meta name="keywords" content="onepage, developer, resume, cv, personal, portfolio, personal resume, clean, modern">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="Culinary_Coma">
 
@@ -37,9 +39,8 @@
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
     <!-- Bootstrap css-->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- Animate Header css -->
     <link rel="stylesheet"
@@ -57,9 +58,9 @@
         integrity="sha256-nXBV7Gr2lU0t+AwKsnS05DYtzZ81oYTXS6kj7LBQHfM=" crossorigin="anonymous" />
 
     <!-- Magnific Popup CSS -->
-    <!-- <link href="https://cdn.bootcss.com/magnific-popup.js/1.1.0/magnific-popup.css" rel="stylesheet"> -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
-        integrity="sha256-PZLhE6wwMbg4AB3d35ZdBF9HD/dI/y4RazA3iRDurss=" crossorigin="anonymous" /> -->
+    <link href="https://cdn.bootcss.com/magnific-popup.js/1.1.0/magnific-popup.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+        integrity="sha256-PZLhE6wwMbg4AB3d35ZdBF9HD/dI/y4RazA3iRDurss=" crossorigin="anonymous" />
 
     <!-- Reset css -->
     <link rel="stylesheet" href="assets/css/reset.css">
@@ -130,7 +131,9 @@
                             <div class="col-md-12">
 
                                 <section class="intro animate-scale">
-                                    <h3>Richard Taing</h3>
+                                    <h3>
+                                        <font size="20">Richard Taing</font>
+                                    </h3>
                                     <h1 class="ah-headline">
                                         <span class="ah-words-wrapper">
                                             <b class="is-visible">Welcome to My Website</b>
@@ -155,30 +158,49 @@
 
     <!--about area starts-->
     <div class="about-area section-padding" id="about">
-        <div class="about-container">
+        <div class="container">
+
             <div class="row">
 
-                <div class="col-sm col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <img class="profile-pic" src="assets/images/babyelephant.JPG" class="img-fluid img-fluid"
-                        alt="about image">
+                <div class="col-md-4 col-xs-12 col-sm-6 col-lg-4">
+                    <div class="about-text-left">
+                        <img class="profile-pic" src="assets/images/LinkedInPhoto.JPG" class="img-responsive img-fluid"
+                            alt="about image">
+                    </div>
                 </div>
 
-                <div class="col-sm col-md-4 col-xs-12 col-sm-6 col-lg-4">
-                    <div class="about-text-left">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <div class="about-text-center">
                         <h2>Richard Taing</h2>
                         <h3>Future Web Developer</h3>
-                        <a href=".pdf" target="_blank" download>Download CV
+                        <a href="*.pdf" target="_blank" download>Download CV
                             &nbsp; &nbsp;<i class="fa fa-download"></i></a>
                     </div>
                 </div>
 
-                <div class="col-sm col-md-4 col-xs-12 col-sm-12 col-lg-4">
-                    <div class="about-text-right"></div>
-                    <!-- Skills area -->
+                <div class="col-md-4 col-xs-12 col-sm-12 col-lg-4">
+                    <div class="about-text-right">
+
+                        <div id="skills">
+                            <p>Web Developer with a love of computers and continuous learning. Highly innovative when
+                                problem-solving and taking on challenges. Knowledgeable in the web development
+                                technologies
+                                of HTML,CSS, Bootstrap, Javascript, and others. Communication with other team members is
+                                a
+                                high priority as we share a common passion of creating dynamically engaging applications
+                                to
+                                better our human experience in the modern world. </p>
+                        </div>
+
+                    </div>
 
                 </div>
+
             </div>
+
         </div>
+    </div>
+
     </div>
     <!--about area ends-->
 
@@ -194,96 +216,103 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-12">
-                <div id="services-carousel" class="owl-carousel owl-theme">
+        </div>
+
+        <div class="col-md-12">
+            <div id="services-carousel" class="owl-carousel owl-theme">
+
+                <div class="single-services text-xs-center item">
+                    <div class="services-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="services-content">
+                        <h3>Computer science applied to JavaScript</h3>
+                        <p>
+                            <ul>
+                                <li>• Data Structures</li>
+                                <li>• Algorithms</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-12">
                     <div class="single-services text-xs-center item">
                         <div class="services-icon">
-                            <i class="fas fa-laptop-code"></i>
+                            <i class="fab fa-chrome"></i>
                         </div>
                         <div class="services-content">
-                            <h3>Computer science applied to JavaScript</h3>
+                            <h3>Browser based technologies</h3>
                             <p>
                                 <ul>
-                                    <li>• Data Structures</li>
-                                    <li>• Algorithms</li>
+                                    <li>• HTML</li>
+                                    <li>• CSS</li>
+                                    <li>• JavaScript</li>
+                                    <li>• jQuery</li>
+                                    <li>• Responsive Design</li>
+                                    <li>• Bootstrap</li>
+                                    <li>• Handlebars</li>
+                                    <li>• Cookies & Local Storage</li>
+                                    <li>• React.js</li>
                                 </ul>
                             </p>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-12">
-                <div class="single-services text-xs-center item">
-                    <div class="services-icon">
-                        <i class="fab fa-chrome"></i>
-                    </div>
-                    <div class="services-content">
-                        <h3>Browser based technologies</h3>
-                        <p>
-                            <ul>
-                                <li>• HTML</li>
-                                <li>• CSS</li>
-                                <li>• JavaScript</li>
-                                <li>• jQuery</li>
-                                <li>• Responsive Design</li>
-                                <li>• Bootstrap</li>
-                                <li>• Handlebars</li>
-                                <li>• Cookies & Local Storage</li>
-                                <li>• React.js</li>
-                            </ul>
-                        </p>
+
+                <div class="col-md-12">
+                    <div class="single-services text-xs-center item">
+                        <div class="services-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="services-content">
+                            <h3>Deployment</h3>
+                            <p>
+                                <ul>
+                                    <li>• Git</li>
+                                    <li>• Github Pages</li>
+                                </ul>
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-12">
-                <div class="single-services text-xs-center item">
-                    <div class="services-icon">
-                        <i class="fab fa-github"></i>
-                    </div>
-                    <div class="services-content">
-                        <h3>Deployment</h3>
-                        <p>
-                            <ul>
-                                <li>• Git</li>
-                                <li>• Github Pages</li>
-                            </ul>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12">
-                <div class="single-services text-xs-center item">
-                    <div class="services-icon">
-                        <i class="fa fa-database"></i>
-                    </div>
-                    <div class="services-content">
-                        <h3>Databases</h3>
-                        <p>
-                            <ul>
-                                <li>• Firebase</li>
-                                <li>• MySQL</li>
-                            </ul>
-                        </p>
+
+                <div class="col-md-12">
+                    <div class="single-services text-xs-center item">
+                        <div class="services-icon">
+                            <i class="fa fa-database"></i>
+                        </div>
+                        <div class="services-content">
+                            <h3>Databases</h3>
+                            <p>
+                                <ul>
+                                    <li>• Firebase</li>
+                                    <li>• MySQL</li>
+                                </ul>
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-12">
-                <div class="single-services text-xs-center item">
-                    <div class="services-icon">
-                        <i class="fab fa-node"></i>
-                    </div>
-                    <div class="services-content">
-                        <h3>Node.js (Server Side Development)</h3>
-                        <p>
-                            <ul>
-                                <li>• Express</li>
-                                <li>• Security and Session Storage</li>
-                                <li>• User Authentication</li>
-                                <li>• MERN Stack (MongoDB, Express.js, React.js, Node.js)</li>
-                            </ul>
-                        </p>
+
+                <div class="col-md-12">
+                    <div class="single-services text-xs-center item">
+                        <div class="services-icon">
+                            <i class="fab fa-node"></i>
+                        </div>
+                        <div class="services-content">
+                            <h3>Node.js (Server Side Development)</h3>
+                            <p>
+                                <ul>
+                                    <li>• Express</li>
+                                    <li>• Security and Session Storage</li>
+                                    <li>• User Authentication</li>
+                                    <li>• MERN Stack (MongoDB, Express.js, React.js, Node.js)</li>
+                                </ul>
+                            </p>
+                        </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
@@ -746,29 +775,33 @@
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
     <!-- Bootstrap.js -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
-
-    <!-- Animated-headlines.js -->
-    <script
-        src="https://cdn.jsdelivr.net/npm/jquery-animated-headlines@1.0.0/dist/js/jquery.animatedheadline.js"></script>
-
-    <!-- OwlCarousel2.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"
-        integrity="sha256-251s88HEsEfGL2RufZmRwGohKTHDYr9T+aJAazDwlGY=" crossorigin="anonymous"></script>
 
     <!-- magnific-popup.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"
         integrity="sha256-wk7QMTzYE7BJvko9BsywPzRmKzhCtIQKTuN6/B9sRmw=" crossorigin="anonymous"></script>
 
+    <!-- OwlCarousel2.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"
+        integrity="sha256-251s88HEsEfGL2RufZmRwGohKTHDYr9T+aJAazDwlGY=" crossorigin="anonymous"></script>
+
+    <!-- Animated-headlines.js -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/jquery-animated-headlines@1.0.0/dist/js/jquery.animatedheadline.js"></script>
+
     <!-- Wow.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"
         integrity="sha256-399DNRyfIpWIy1ZV0KmEIIuIQ5sBHdLu9MBtVHrNtt8=" crossorigin="anonymous"></script>
 
-    <!-- Waypoints.js -->
+    <!-- Waypoints.js validator -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
         integrity="sha256-w49DIDk8itgSjjuoof5lTxYKwcjWJ7Z2sRW3nU1StNA=" crossorigin="anonymous"></script>
+
+    <!-- Counter up  -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"
+        integrity="sha256-wldfwyVJyA71oKe6Sba0fKZkaR6CMwtb0DnWcQs6N1Y=" crossorigin="anonymous"></script> -->
 
     <script src="https://kit.fontawesome.com/57944e1645.js"></script>
 
@@ -780,6 +813,3 @@
 </body>
 
 </html>
-
-<script
-    src="https://cdn.jsdelivr.net/npm/jquery-animated-headlines@1.0.0/dist/js/jquery.animatedheadline.min.js"></script>

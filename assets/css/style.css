@@ -252,14 +252,6 @@ img {
   background: #033d75;
 }
 
-.profile-pic {
-  border-radius: 30px;
-  border-style: none;
-  height: auto;
-  margin-top: 10px;
-  margin-right: 25px;
-  width: 20%;
-}
 /* Nav area css ends */
 
 /* 4. Banner area css starts */
@@ -349,23 +341,11 @@ canvas {
 /* Banner area css ends */
 
 /* 5. About area css starts */
-
-.about-container {
-  display: inline-flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  padding: 5px;
+.profile-pic {
+  border-radius: 30px;
 }
 
-.about-container div {
-  /* width: 100px;
-  margin: 10px; */
-  line-height: 75px;
-  font-size: 30px;
-  flex: 1;
-}
-
-.about-text-left h2 {
+.about-text-center h2 {
   font-weight: 700;
   font-size: 36px;
   color: #212121;
@@ -374,7 +354,7 @@ canvas {
   margin-bottom: 5px;
 }
 
-.about-text-left h3 {
+.about-text-center h3 {
   color: #212121;
   font-size: 14px;
   text-transform: uppercase;
@@ -383,14 +363,14 @@ canvas {
   margin-bottom: 18px;
 }
 
-.about-text-left p {
+.about-text-center p {
   text-align: right;
   font-size: 13px;
   color: #222;
   margin-bottom: 50px;
 }
 
-.about-text-left a {
+.about-text-center a {
   color: #fff;
   font-size: 14px;
   text-transform: uppercase;
@@ -400,15 +380,19 @@ canvas {
   text-decoration: none;
 }
 
-.about-text-right {
-  margin-top: 90px;
-}
-
 .about-text-left {
   margin-top: 90px;
 }
 
-.about-text-left p {
+.about-text-center {
+  margin-top: 90px;
+}
+
+.about-text-right {
+  margin-top: 90px;
+}
+
+.about-text-center p {
   text-align: right;
   font-size: 15px;
   color: #222;
@@ -416,6 +400,7 @@ canvas {
 }
 /* About area css ends */
 /* 6. Services area Starts */
+
 .services-area {
   background: #f3f4f3;
 }
@@ -443,7 +428,7 @@ canvas {
 }
 
 .single-services {
-  padding: 40px 20px;
+  /* padding: 40px 20px; */
   margin: 0 15px 15px;
   position: relative;
   overflow: hidden;
