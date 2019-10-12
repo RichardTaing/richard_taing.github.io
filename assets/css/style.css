@@ -637,6 +637,9 @@ canvas {
 }
 /* Portfolio area Ends */
 /* 8. Contact area starts */
+.contact-area {
+  background: #f3f4f3;
+}
 
 #contact-form {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
@@ -645,7 +648,7 @@ canvas {
 
 .single-contact i {
   font-size: 30px;
-  color: #e91e63;
+  color: #1e94e0;
 }
 
 .single-contact .socials i {
@@ -702,8 +705,12 @@ canvas {
 /* Contact area ends */
 /* 9. Footer area starts */
 .footer-area {
-  background: #232323;
-  color: #ffffff;
+  /* background: #232323; */
+  color: #232323;
   padding: 30px 0;
+}
+
+.footer-area p {
+  text-align: center;
 }
 /*  Footer area ends  */
